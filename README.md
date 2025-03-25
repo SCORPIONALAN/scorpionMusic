@@ -1,8 +1,38 @@
-# SCORPIONMUSIC
-Este sera un proyecto un tanto personal, para demostrar mis habilidades y conocimientos dentro del desarrollo web, poder integrar API de tipo REST y SocketIO. De igual forma mejorar mis habilidades tanto de frontEnd como de backend.
-El fin sera realizar un clon de spotify con todas sus funcionalidades, agregando un ADMIN para subir canciones y crear un chat entre los usuarios.
-Usare un stack MERN, en el front usare React, tailwindcss, SAHDCNUI (libreria para visuales como DaisyUI), y Zustand para estados globales.
-En el backend usare para almacenar los datos MongoDB, express para montar mi servidor, socketIO para la comunicacion en tiempo real, todo esto dentro de NodeJS.
+# 🎵 SCORPIONMUSIC
 
-### primer avance
-En este día me encargue totalmente de crear la estructura de mi aplicacion, dividirla tanto de fronend y backend. Avance solo un poco con la implementacion de una API de verificacion (clerk). Descargar las dependencias del frontend y las dependencias del backend (mongoose dotenv cloudinary cors @clerk/express socket.io)
+**Clon de Spotify fullstack**, construido como proyecto personal para demostrar habilidades en desarrollo web moderno: integración de APIs REST, WebSockets con Socket.IO, autenticación, subida de archivos y arquitectura escalable. Se incluye panel de administrador, subida de canciones y sistema de chat en tiempo real.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+### 🖥️ Frontend
+- React
+- TailwindCSS
+- ShadCN UI
+- Zustand (manejo de estado)
+- Clerk (autenticación de usuarios)
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- Socket.IO (chat en tiempo real)
+- Cloudinary (subida de canciones)
+- Clerk/Express (middleware auth)
+
+---
+
+## 📂 Estructura del Proyecto
+
+- Backend
+- frontEnd
+- Arquitectura
+
+## 📝 Bitacoras
+- [Bitacora 1 a 3 SetUp inicial, backend y modelos] (./docs/bitacora1-3.md)
+
+## 👨‍💻 Autor
+
+**Alan Torres** – Desarrollador Fullstack  
+FES Aragón - Ingeniería en Computación
