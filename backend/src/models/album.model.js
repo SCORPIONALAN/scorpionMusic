@@ -24,4 +24,4 @@ const albumSchema = new mongoose.Schema({
         ref: 'Song'
     }]
 }, {timestamps:true})
-export const Album = mongoose.Model('Album', albumSchema);
+export const Album = mongoose.model('Album', albumSchema);

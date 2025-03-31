@@ -2,12 +2,12 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
     fullName : {
-        typeof: String,
+        type: String,
         required: true
     },
     imageURL: {
-        typeof: String,
-        required: true,
+        type: String,
+        required: true
     },
     clerkId:{
         type: String,
@@ -17,4 +17,4 @@ const userSchema = new mongoose.Schema({
 }, {timestamps:true} //createdAt updatedAt
 )
 
-export const User = mongoose.Model('User', userSchema);
+export const User = mongoose.model('User', userSchema);
