@@ -31,6 +31,7 @@
 
 ## 📝 Bitacoras
 - [Bitacora 1 a 3 SetUp inicial, backend y modelos](./docs/bitacora1-3.md)
+- [Bitacora 4 a 6 Controladores](./docs//bitacoras/bitacora4-6.md)
 
 ## 👨‍💻 Autor
 
