@@ -1,5 +1,5 @@
 import { User } from "../models/user.model.js";
-export const authCallBack = async (req, res) =>{
+export const authCallBack = async (req, res, next) =>{
     try {
         //                              Para crear cuenta o iniciar sesion
         // Almacenamiento de clerk
@@ -17,6 +17,6 @@ export const authCallBack = async (req, res) =>{
         res.status(200).json({success:true});
     } catch (error) {
         console.log('Error en auth callback', error);
-        res.status(500).json({message: "Error interno del servidor", error});
+        next(error);
     }
 }
